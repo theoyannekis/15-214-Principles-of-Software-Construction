@@ -1,0 +1,27 @@
+tileStack:
+- instances: 1
+  northTop: dummy
+  northMid: dummy
+  northBot: dummy
+  westTop: dummy
+  westMid: dummy
+  westBot: dummy
+  southTop: dummy
+  southMid: dummy
+  southBot: dummy
+  eastTop: dummy
+  eastMid: dummy
+  eastBot: dummy
+  center: dummy
+  centerNE: dummy
+  centerN: dummy
+  centerNW: dummy
+  centerW: dummy
+  centerSW: dummy
+  centerS: dummy
+  centerSE: dummy
+  centerE: dummy
+  cornerNE: dummy
+  cornerNW: dummy
+  cornerSW: dummy
+  cornerSE: dummy

@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+test.testLogging {
+    exceptionFormat "full"; events "failed", "passed", "skipped"
+}
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:6.2.1'
+        forcedModules = [ 'org.ow2.asm:asm:6.2.1' ]
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: '2.2.0.201212191850-r'
+
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}

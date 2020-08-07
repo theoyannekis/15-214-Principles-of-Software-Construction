@@ -1,0 +1,27 @@
+tileStack:
+- instances: 1
+  northTop: field
+  northMid: field
+  northBot: field
+  westTop: field
+  westMid: field
+  westBot: field
+  southTop: field
+  southMid: field
+  southBot: field
+  eastTop: field
+  eastMid: field
+  eastBot: field
+  center: cloister
+  centerNE: field
+  centerN: field
+  centerNW: field
+  centerW: field
+  centerSW: field
+  centerS: field
+  centerSE: field
+  centerE: field
+  cornerNE: field
+  cornerNW: field
+  cornerSW: field
+  cornerSE: field
